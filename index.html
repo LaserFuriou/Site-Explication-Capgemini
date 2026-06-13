@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Capgemini - Accueil</title>
+    <link rel="stylesheet" href="accueil.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="Accueil active" href="index.html">Accueil</a></li>
+                <li><a class="Secteurs" href="SecteursActivités.html">Secteurs d'activités</a></li>
+                <li><a class="Environnementale" href="durabilite_environnementale.html">Durabilité environnementale</a></li>
+                <li><a class="Numérique" href="inclusion_numérique.html">Inclusion numérique</a></li>
+                <li><a class="Diversité" href="diversite_et_inclusion.html">Diversité et Inclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Rejoignez Capgemini et donnez vie à vos idées.</h1>
+        <h2>Chaque talent fait la différence.</h2>
+
+         <div class="button-container">
+            <button class="button" onclick="location.href='cv.html'">Envoyer CV</button>
+        </div>
+        <hr>
+        <div class="grid-container">
+            <button class="grid-item" onclick="location.href='durabilite_environnementale.html'">
+                <h3>Durabilité environnementale</h3>
+                <p>Participer à des projets ayant un impact réel sur la planète.</p>
+            </button>
+            <button class="grid-item" onclick="location.href='inclusion_numérique.html'">
+                <h3>Inclusion numérique</h3>
+                <p>Apporter la technologie à tous et réduire les inégalités numériques.</p>
+            </button>
+            <button class="grid-item" onclick="location.href='diversite_et_inclusion.html'">
+                <h3>Diversité et inclusion</h3>
+                <p>Travailler dans une entreprise où la diversité est une force.</p>
+            </button>
+        </div>
+        <hr>
+        <div class="carousel">
+            <button class="carousel-btn prev-btn"> < </button>
+            <div class="carousel-wrapper">
+                <div class="carousel-content">
+                    <div class="carousel-item">
+                        <img src="images/Bruno.png" alt="Avatar Bruno">
+                        <p class="name">Bruno (23 ans, H)</p>
+                        <blockquote>
+                            "Mon stage chez Capgemini m'a permis de monter en compétences rapidement tout en contribuant à des projets concrets."
+                        </blockquote>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Alice.png" alt="Avatar Alice">
+                    <p class="name">Alice (20 ans, F)</p>
+                    <blockquote>
+                        "J'ai adoré l'encadrement et l'ambiance de travail bienveillante. Une expérience inoubliable !"
+                    </blockquote>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Claire.png" alt="Avatar Claire">
+                    <p class="name">Claire (27 ans, F)</p>
+                    <blockquote>
+                        "L'alternance chez Capgemini m'a ouvert les portes du monde professionnel avec un poste à la clé."
+                    </blockquote>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/David.png" alt="Avatar David">
+                    <p class="name">David (30 ans, H)</p>
+                    <blockquote>
+                        "Une équipe dynamique et des projets innovants, j'ai beaucoup appris pendant mon stage."
+                    </blockquote>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Camille.png" alt="Avatar Sophie">
+                    <p class="name">Camille (25 ans, F)</p>
+                    <blockquote>
+                        "La diversité des missions et les responsabilités confiées sont un vrai plus pour se développer."
+                    </blockquote>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Leo.png" alt="Avatar Leo">
+                    <p class="name">Léo (22 ans, H)</p>
+                    <blockquote>
+                        "Grâce à Capgemini, j'ai découvert ma passion pour le développement durable et l'innovation."
+                    </blockquote>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Emma.png" alt="Avatar Emma">
+                    <p class="name">Emma (29 ans, F)</p>
+                    <blockquote>
+                        "Capgemini offre un cadre idéal pour apprendre et évoluer professionnellement."
+                    </blockquote>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Max.png" alt="Avatar Max">
+                    <p class="name">Max (26 ans, H)</p>
+                        <blockquote>
+                            "Je recommande vivement cette expérience, qui a été un tremplin dans ma carrière."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn next-btn"> > </button>
+        </div>
+    </div>
+    <script src="accueil.js"></script>
+    <footer>
+        <div>
+            <a href="https://www.tiktok.com/@capgemini.france?lang=fr">TikTok : capgemini.france</a>
+            <a href="https://www.instagram.com/capgeminifr/?hl=fr">Instagram : capgeminifr</a>
+            <a href="https://fr.linkedin.com/company/capgemini">LinkedIn : capgeminifrance</a>
+        </div>
+        <div>
+            <form method="POST" action="footer.php">
+                <input id="email" type="email" name="email" placeholder="Votre email" required>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+      </footer>
+</body>
+</html>

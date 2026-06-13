@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Capgemini - CV</title>
+    <link rel="stylesheet" href="accueil.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="Accueil" href="index.html">Accueil</a></li>
+                <li><a class="Secteurs" href="SecteursActivités.html">Secteurs d'activités</a></li>
+                <li><a class="Environnementale" href="durabilite_environnementale.html">Durabilité environnementale</a></li>
+                <li><a class="Numérique" href="inclusion_numérique.html">Inclusion numérique</a></li>
+                <li><a class="Diversité" href="diversite_et_inclusion.html">Diversité et Inclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Sélectionner votre CV pour nous l'envoyer</h1>
+        <form method="POST" action="cv.php">
+            <input id="file" type="file" name="file" accept="application/pdf">
+            <div class="button-container">
+                <button class="button" onclick="location.href='cv.html'">Envoyer</button>
+            </div>        
+        </form>
+    </div>
+    <footer>
+        <div>
+            <a href="https://www.tiktok.com/@capgemini.france?lang=fr">TikTok : capgemini.france</a>
+            <a href="https://www.instagram.com/capgeminifr/?hl=fr">Instagram : capgeminifr</a>
+            <a href="https://fr.linkedin.com/company/capgemini">LinkedIn : capgeminifrance</a>
+        </div>
+        <div>
+            <form method="POST" action="footer.php">
+                <input id="email" type="email" name="email" placeholder="Votre email" required>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
